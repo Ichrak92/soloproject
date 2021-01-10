@@ -1,0 +1,17 @@
+h1{
+	background-color: #F4A460;
+	color: black;
+	box-shadow: 5px 10px #888888;
+	height: 75px;
+	padding-top: 50px;
+}
+
+input{
+	width: 200px;
+	box-sizing: border-box;
+	border: 5px solid #ccc;
+	font-size: 14px;
+	background-color: white;
+	background-image: url('searchicon.png');
+	background-repeat: no-repeat;
+}
