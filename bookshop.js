@@ -12,4 +12,12 @@
   //setTimeout(carousel, 2000);
 //}
 
-
+//function myFunction(){
+	//var element=document.getElementsId("myDIV");
+	//element.classList.toggle("mystyle");
+//}
+$(document).ready(function(){
+  $(".btn3").click(function(){
+    $("#book").toggle();
+  });
+});
