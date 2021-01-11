@@ -225,15 +225,16 @@ h2{
 	top: -80vh
 }
  #footer {
-    position: absolute;
+    
     text-align: center;
     left: -2.5vw;
     background-color: #D07474;
     color: white;
-
+    position: absolute;
     width: 100vw;
     
-    height: 100px;
+    height: 200px;
+
   }
 
 
@@ -325,7 +326,10 @@ span.psw {
   padding-top: 16px;
 }
 
-
+.uname{
+	position: absolute;
+	top: 10vh
+}
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {

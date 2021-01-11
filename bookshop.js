@@ -26,7 +26,9 @@ $('.next').on('click',function(){plusDivs(1)})
 //button Shop Now
   $(".btn3").on('click',function(){
     $("#pp").toggle();
-    $('.login').hide()
+    $("#btn1").hide();
+    $(".login").hide();
+  
   	 
   });
 
