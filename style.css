@@ -24,6 +24,7 @@ input{
 body{
 	overflow-x: hidden;
 	height: 100vh
+
 }
 
 input[type=text]:focus {
@@ -95,7 +96,9 @@ h1{
 
 h2{
 	margin-right: 650px;
-	margin-left: 20px;
+	margin-left: 150px;
+	color: green;
+
 }
 .cl1{
 	margin-right: 150px;
@@ -192,7 +195,7 @@ h2{
 }
 
 .iii{
-	margin-bottom: 200px;
+	margin-bottom: 500px;
 	margin-top: 450px;
 
 }
@@ -250,12 +253,25 @@ margin-left: 780px;
 
 }
 #btn1{
-	color: blue;
+	color: red;
 	margin-bottom:200px;
 	position: relative;
 	top: 60vh;
 	right:40vw;
 
+
+}
+#btn1:hover{
+color: red
+}
+.tntn{
+	color: #D07474;
+	width: 150px;
+	height:40px;
+	font-size: 20px;
+}
+.tntn:hover{
+	color: grey;
 }
 
 #BBT {
@@ -278,15 +294,15 @@ margin-left: 780px;
 }
 
 
-form {border: 3px solid #f1f1f1;}
+form {border: 2px solid #f1f1f1;}
 
-input[type=text], input[type=password] {
+input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  border: 1.5px solid #ccc;
+
 }
 
 .bt {
@@ -297,6 +313,9 @@ input[type=text], input[type=password] {
   border: none;
   cursor: pointer;
   width: 100%;
+  background-color:#D07474 ;
+ 
+  border-color: #D07474;
 }
 
 .bt:hover {

@@ -28,7 +28,7 @@ $('.next').on('click',function(){plusDivs(1)})
     $("#pp").toggle();
     $("#btn1").hide();
     $(".login").hide();
-  
+
   	 
   });
 
@@ -50,5 +50,7 @@ $('#btn1').click(function(){
    console.log($('.box').val())
 })
 
-
+function myFunction() {
+  alert("This book is not found!");
+}
 
