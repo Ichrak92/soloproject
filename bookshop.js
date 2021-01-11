@@ -47,10 +47,26 @@ $('#btn1').click(function(){
    $('.next').hide()
    $('.login').css('top','10vh')
    $('#btn1').hide()
+   $('#iner').hide()
+ 
+
    console.log($('.box').val())
 })
 
 function myFunction() {
   alert("This book is not found!");
 }
+
+$('#BBT').click(function(){
+   $('#pp').hide()
+   $('.btn3').hide()
+   $('.mySlides').hide()
+   $('.login').show()
+   $('.previous').hide()
+   $('.next').hide()
+   $('.login').css('top','10vh')
+   $('#btn1').hide()
+   $('#iner').hide()
+   console.log($('.box').val())
+})
 

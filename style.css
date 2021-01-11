@@ -41,7 +41,7 @@ input[type=text]:focus {
 }
 .autoSlides {
   height: 300px;
-  margin: auto;
+  width: 1020px;
 }
 
 .category1{
@@ -113,7 +113,14 @@ h2{
 
 }
 
+.inp{
+	margin-left: 200px;
+	width: 400px;
+}
 
+.iner{
+	color: black;
+}
 
 #btn1{
 	margin-top: 30px;
@@ -177,9 +184,12 @@ h2{
 	text-align: center;
 	font-size: 16px;
 	margin: 4px 2px;
-	box-shadow: 6px 6px 10px blue;
+	box-shadow: 6px 6px 10px #D07474;
 	border: solid;
 	margin-left: 150px;
+}
+.btn3:hover{
+	border-color:#D07474;
 }
 
 
