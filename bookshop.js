@@ -1,23 +1,32 @@
-//SlideShow
-//var myIndex = 0;
-//function carousel() {
-  //var i;
-  //var x = document.getElementsByClassName("autoSlides");
-  //for (i = 0; i < x.length; i++) {
-   // x[i].style.display = "none";  
-  //}
-  //myIndex++;
-  //if (myIndex > x.length) {myIndex = 1}    
-  //x[myIndex-1].style.display = "block";  
-  //setTimeout(carousel, 2000);
-//}
+	$(document).ready(function(){
+		var slideIndex = 1;
 
-//function myFunction(){
-	//var element=document.getElementsId("myDIV");
-	//element.classList.toggle("mystyle");
-//}
-$(document).ready(function(){
+		showDivs(slideIndex);
+
+function plusDivs(n) {
+	console.log(n)
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+$('.previous').on('click',function(){plusDivs(-1)})
+$('.next').on('click',function(){plusDivs(1)})
+
+
+
+//button Shop Now
   $(".btn3").click(function(){
     $("#book").toggle();
   });
 });
+
+

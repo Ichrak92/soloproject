@@ -1,10 +1,11 @@
 h1{
-	background-color: #F4A460;
+	background-color: #D07474;
 	color: black;
 	box-shadow: 5px 10px #888888;
 	height: 75px;
 	padding-top: 50px;
 }
+
 
 input{
 	width: 200px;
@@ -78,11 +79,14 @@ h3{
 }
 h1{
 	margin-right: 120px;
+	font-size: 50px;
+	color: white;
+	width: 100%;
 }
 
 #pp{
 	margin-right: 250px;
-	margin-bottom:250px;
+	margin-bottom:500px;
 	margin-top: 75px;
 }
 
@@ -103,10 +107,7 @@ h2{
 
 }
 
-label .input{
-	margin-bottom: 100px;
-	display: inline;
-}
+
 #ff{
 	
 	margin-left: 600px;
@@ -154,9 +155,9 @@ label .input{
 	margin-left: 150;
 }
 #btn{
-	margin-top: 450px;
-	margin-right: 150px;
-
+	margin-top: 600px;
+	margin-top: 400px;
+	text-align: center;
 }
 
 #data{
@@ -188,8 +189,8 @@ label .input{
 }
 
 .iii{
-	margin-bottom: 100px;
-	margin-top: 400px;
+	margin-bottom: 200px;
+	margin-top: 450px;
 
 }
 
@@ -206,14 +207,65 @@ label .input{
 	text-align: center;
 	font-size: 16px;
 	margin: 4px 2px;
-	
-	
 	box-shadow: 6px 6px 10px blue;
 	border: solid;
 	margin-left: 150px;
 }
 
 
+
 #book{
 	color:white;
+	margin-bottom: 500px;
+	margin-top: 600px;
+	position: relative;
+	top: -80vh
+}
+ #footer {
+    
+    text-align: center;
+   
+    background-color: #D07474;
+    color: white;
+    margin-top: 500px;
+    width: 100%;
+    margin-right:900px;
+    
+    height: 250px;
+  }
+
+
+.center {
+margin-top: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+#BBT {
+  background-color: #667070;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  background-color: gris;
+  color: White;
+  border: 2px solid #e7e7e7;
+  left: 50%;
+  margin-left: 50%;
+}
+#BBT:hover {
+  background-color: ;
+}
+.head{
+
+	position: relative;
+	text-align: center;
+}
+
+#hhh{
+	
+	display:inline-block;
 }
