@@ -24,9 +24,29 @@ $('.next').on('click',function(){plusDivs(1)})
 
 
 //button Shop Now
-  $(".btn3").click(function(){
-    $("#book").toggle();
+  $(".btn3").on('click',function(){
+    $("#pp").toggle();
+    $('.login').hide()
+  	 
   });
+
 });
+
+
+
+
+
+$('#btn1').click(function(){
+   $('#pp').hide()
+   $('.btn3').hide()
+   $('.mySlides').hide()
+   $('.login').show()
+   $('.previous').hide()
+   $('.next').hide()
+   $('.login').css('top','10vh')
+   $('#btn1').hide()
+   console.log($('.box').val())
+})
+
 
 
