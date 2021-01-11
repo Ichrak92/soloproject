@@ -70,3 +70,7 @@ $('#BBT').click(function(){
    console.log($('.box').val())
 })
 
+$('#project').ready(function(){
+	$('.login').hide()
+	$('#tntn').show()
+})

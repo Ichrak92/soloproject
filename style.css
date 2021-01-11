@@ -166,7 +166,7 @@ h2{
 }
 
 .iii{
-	margin-bottom: 500px;
+	margin-bottom: 600px;
 	margin-top: 450px;
 
 }
@@ -246,14 +246,18 @@ margin-left: 780px;
 #btn1:hover{
 color: red
 }
-.tntn{
+#tntn{
 	color: #D07474;
 	width: 150px;
 	height:40px;
 	font-size: 20px;
+	margin-bottom: 300px;
 }
-.tntn:hover{
+#tntn:hover{
 	color: grey;
+}
+#my{
+	margin-bottom: 200px;
 }
 
 #BBT {
