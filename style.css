@@ -100,6 +100,9 @@ h2{
 	color: black;
 
 }
+h2:hover{
+	color:#D07474;
+}
 .cl1{
 	margin-right: 150px;
 	margin-left: 20px;
@@ -168,6 +171,7 @@ h2{
 .iii{
 	margin-bottom: 600px;
 	margin-top: 450px;
+	margin-bottom: 80%;
 
 }
 
@@ -252,6 +256,7 @@ color: red
 	height:40px;
 	font-size: 20px;
 	margin-bottom: 300px;
+
 }
 #tntn:hover{
 	color: grey;

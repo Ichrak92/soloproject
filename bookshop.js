@@ -34,10 +34,6 @@ $('.next').on('click',function(){plusDivs(1)})
 
 });
 
-
-
-
-
 $('#btn1').click(function(){
    $('#pp').hide()
    $('.btn3').hide()
